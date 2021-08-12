@@ -6,19 +6,13 @@ layout: home
 title: "Tópicos Especiais: Deep learning aplicado à Visão Computacional (ET094)"
 ---
 
-
-
-
-
-
-
 Informações gerais
 -----------------
 
 - Professor Responsável: João Pedro Hallack Sansão
 - Carga horária: 72 horas-aula (14 horas-aula síncronas, 58 horas-aulas assíncronas)
 - Pré-requisito: Cálculo Numérico 
-- [Plano de ensino](https://ufsj.edu.br/portal2-repositorio/File/ctele/Plano%20de%20Ensino/2021.2/Topicos_Deep_Learning_Telecom.pdf)
+- [Plano de ensino](/assets/Topicos_Deep_Learning_Telecom.pdf)
 
 
 Introdução
@@ -49,40 +43,62 @@ práticas do métodos.
 Alguns exemplos são apresentados a seguir. 
 
 
-
 Algumas aplicações interessantes
 ----------
 
 ### Classificação binária 
 
-Classificar se o animal na imagem é um gato (0) ou cachorro (1). 
+Classificar se o animal na imagem é um gato (0) ou cachorro (1). [^1] 
 
 ![Cats vs dogs](/assets/images/catvsdog.png)
 
 ### Classificação com múltiplas classes 
 
-Discriminar entre diversas raças de cães:
+Discriminar entre diversas raças de cães [^2]:
 
 ![Competição do Kaggle: Dog Breed Identification](/assets/images/border_collies.png)
 
-Reconhecimento de dígitos:
+Reconhecimento de dígitos: [^3]
 
 ![MNIST Digits](/assets/images/digits.jpg)
 
 ### Localização e detecção de objetos 
 
-
+Posição e classificação de objetos em uma imagem (ou vídeo, por exemplo) [^4]
 
 ![Yolo ](/assets/images/yolo.png)
 
 
 ### Detecção de faces
 
+Detecção de face humana [^5]
+
 ![SSD](/assets/images/monassd.png)
 
 
-### Transferência de estilo 
+### Transferência de estilo e geração 
 
+Adaptar o estilo de uma imagem original, como "Bart Simpson pintado por Picasso". 
+
+Ou mesmo criar uma nova imagem com uma descrição [^6], como "Carro voador pintado por Miró".
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FYu2DJ6XuKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Recursos computacionais 
+----------
+
+Apesar da necessidade de recursos computacionais relevantes para as
+aplicações de aprendizado profundo em visão (como GPUs), neste curso
+usaremos plataformas de computação em nuvem [^7], que serão suficientes
+para o desenvolvimento do mesmo, bastando acesso estável à Internet.
+
+
+[^1] https://www.kaggle.com/c/dogs-vs-cats
+[^2] https://www.kaggle.com/c/dog-breed-identification
+[^3] https://en.wikipedia.org/wiki/MNIST_database
+[^4] https://pjreddie.com/darknet/yolo/
+[^5] https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
+[^6] https://huggingface.co/spaces/akhaliq/VQGAN_CLIP
+[^7] https://colab.research.google.com/ e https://www.kaggle.com 
