@@ -95,10 +95,10 @@ usaremos plataformas de computação em nuvem [^7], que serão suficientes
 para o desenvolvimento do mesmo, bastando acesso estável à Internet.
 
 
-[^1] https://www.kaggle.com/c/dogs-vs-cats
-[^2] https://www.kaggle.com/c/dog-breed-identification
-[^3] https://en.wikipedia.org/wiki/MNIST_database
-[^4] https://pjreddie.com/darknet/yolo/
-[^5] https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
-[^6] https://huggingface.co/spaces/akhaliq/VQGAN_CLIP
-[^7] https://colab.research.google.com/ e https://www.kaggle.com 
+[^1]: https://www.kaggle.com/c/dogs-vs-cats
+[^2]: https://www.kaggle.com/c/dog-breed-identification
+[^3]: https://en.wikipedia.org/wiki/MNIST_database
+[^4]: https://pjreddie.com/darknet/yolo/
+[^5]: https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
+[^6]: https://huggingface.co/spaces/akhaliq/VQGAN_CLIP
+[^7]: https://colab.research.google.com/ e https://www.kaggle.com 
