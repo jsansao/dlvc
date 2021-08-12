@@ -12,7 +12,7 @@ Informações gerais
 - Professor Responsável: João Pedro Hallack Sansão
 - Carga horária: 72 horas-aula (14 horas-aula síncronas, 58 horas-aulas assíncronas)
 - Pré-requisito: Cálculo Numérico 
-- [Plano de ensino](/assets/Topicos_Deep_Learning_Telecom.pdf)
+- [Plano de ensino](/assets/plano_dlcv_20212_ere-4.pdf)
 
 
 Introdução
@@ -48,7 +48,7 @@ Algumas aplicações interessantes
 
 ### Classificação binária 
 
-Classificar se o animal na imagem é um gato (0) ou cachorro (1). [^1] 
+Classificar se o animal na imagem é um gato (0) ou cão (1). [^1] 
 
 ![Cats vs dogs](/assets/images/catvsdog.png)
 
@@ -95,10 +95,10 @@ usaremos plataformas de computação em nuvem [^7], que serão suficientes
 para o desenvolvimento do mesmo, bastando acesso estável à Internet.
 
 
-[^1]: https://www.kaggle.com/c/dogs-vs-cats
-[^2]: https://www.kaggle.com/c/dog-breed-identification
-[^3]: https://en.wikipedia.org/wiki/MNIST_database
-[^4]: https://pjreddie.com/darknet/yolo/
-[^5]: https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
-[^6]: https://huggingface.co/spaces/akhaliq/VQGAN_CLIP
-[^7]: https://colab.research.google.com/ e https://www.kaggle.com 
+[^1]: [Competição no Kaggle: Cats vs Dogs](https://www.kaggle.com/c/dogs-vs-cats)
+[^2]: [Competição no Kaggle: Dog breed identification](https://www.kaggle.com/c/dog-breed-identification)
+[^3]: [MNIST database](https://en.wikipedia.org/wiki/MNIST_database)
+[^4]: [Yolo](https://pjreddie.com/darknet/yolo/)
+[^5]: [Detecção de Faces, PyImageSearch](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
+[^6]: [VQGAN-CLIP no Huggingface](https://huggingface.co/spaces/akhaliq/VQGAN_CLIP)
+[^7]: [Google Colab](https://colab.research.google.com/) e [Kaggle](https://www.kaggle.com)
