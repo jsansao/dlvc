@@ -1,4 +1,4 @@
-# Deep Learning aplicado à Visão Computacional
+# Tópicos Especiais - Deep Learning aplicado à Visão Computacional (ET094)
 
 Índice dos Notebooks do curso (na seqüência):
 
