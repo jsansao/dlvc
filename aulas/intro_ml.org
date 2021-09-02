@@ -1,0 +1,124 @@
+
+#+TITLE:  Conceitos iniciais sobre aprendizado de máquina
+#+AUTHOR:João Pedro Hallack Sansão
+#+EMAIL:     joao@ufsj.edu.br
+#+DATE:      Julho/2021
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  pt
+#+OPTIONS:   H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+
+#+startup: oddeven
+
+
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [aspectratio=169,presentation,mathserif,10pt]
+#+LaTeX_HEADER: \usepackage[brazil]{babel} \usepackage{icomma} \usepackage{helvet} \setbeamerfont{caption}{size=\tiny}
+#+latex_header: \mode<beamer>{\usetheme{Antibes}\usecolortheme{beaver}\institute[DTECH-UFSJ]{DTECH-UFSJ}}
+#+latex_header: \AtBeginSection[]{\begin{frame}<beamer>\frametitle{Tópicos}\tableofcontents[currentsection]\end{frame}}
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %20ITEM %13BEAMER_env(Env) %6BEAMER_envargs(Args) %4BEAMER_col(Col) %7BEAMER_extra(Extra)
+
+
+
+
+
+
+
+* Aprendizado de máquina
+
+** Aprendizado de máquina (Machine Learning)
+
+- Definição clássica: "Campo de estudo que dá aos computadores a
+  habilidade de aprender sem ser explicitamente programados."
+
+- Definição moderna: "Um programa de computador aprende com a
+  experiência E no que diz respeito a alguma classe de tarefas T e
+  medida de desempenho P, se o seu desempenho nas tarefas em T,
+  conforme medido por P, melhora com a experiência E."
+
+
+
+** Aprendizado de máquina x Programação tradicional
+
+#+CAPTION: Adaptado de Moroney (2020)
+#+ATTR_LaTeX: :height 0.7\textheight
+[[file:./fig/mlct.png]]
+
+
+** Exemplos:
+
+*** A screenshot 					   :BMCOL:B_example2:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+
+#+CAPTION: \url{https://youtu.be/_bW4vEo1F4E}
+#+ATTR_LaTeX: :height .7\textheight
+[[file:./fig/spam.jpg]]
+
+
+
+*** A screenshot 					   :BMCOL:B_example2:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+
+
+
+- Filtragem de SPAM 
+
+  - Tarefa (T): classificação de e-mails como SPAM ou não
+  - Experiência (E): observação de rotulação dos e-mails como SPAM ou não 
+  - Desempenho (P): Fração dos emails corretamente classificados
+
+
+
+** Exemplos (continuação):
+
+
+*** A screenshot 					   :BMCOL:B_example2:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+
+
+
+#+CAPTION: \url{https://medium.com/abraia/first-steps-with-transfer-learning-for-custom-image-classification-with-keras-b941601fcad5}
+#+ATTR_LaTeX: :height .7\textheight
+[[file:./fig/catxdog.png]]
+
+*** A screenshot 					   :BMCOL:B_example2:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+
+
+- Gato x Cão
+  - Tarefa (T): classificação como gato ou cão
+  - Experiência (E): rotulação da imagem como gato (0) ou cão (1) 
+  - Desempenho (P): Fração das imagens corretamente classificadas
+
+
+
+** Classificação de algoritmos de Aprendizado de máquina
+
+- Aprendizado supervisionado
+- Aprendizado não-supervisionado
+- Aprendizado por reforço
+
+
+** Aprendizado supervisionado x não supervisionado
+
+#+CAPTION: Elaboração própria
+#+ATTR_LaTeX: :height 0.6\textheight
+[[file:./fig/sxns.png]]
+
+
